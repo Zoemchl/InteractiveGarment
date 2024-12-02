@@ -1,0 +1,125 @@
+.componentDoc {
+font-family: narkiss-yair-variable, sans-serif;
+font-style: normal;
+font-variation-settings: "MONO" 0, "wght" 400;
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+color: #000;
+line-height: 1.8;
+text-align: left;
+}
+
+.componentDoc h4 {
+font-size: 28px;
+font-weight: bold;
+margin-top: 30px;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #000;
+border-bottom: 2px solid #000;
+padding-bottom: 5px;
+}
+
+.componentDoc p {
+font-size: 18px;
+color: #000;
+margin-bottom: 20px;
+}
+
+.componentDoc p strong {
+font-weight: bold;
+color: #333;
+}
+
+.componentDoc p + p {
+margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+.componentDoc {
+    padding: 15px;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+.componentDoc h4 {
+    font-size: 24px;
+}
+}
+
+.componentDoc p {
+font-size: 18px;
+color: #000000;
+margin-bottom: 20px;
+position: relative;
+}
+
+.componentDoc .startp:first-letter {
+font-size: 48px;
+font-weight: bold;
+color: #2D6B3C;
+float: left;
+margin-right: 8px;
+line-height: 1.2;
+}
+
+.riseButton {
+    background-color: white 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: #2D6B3C;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.riseButton:hover {
+color: #2E8B57;
+transform: scale(1.1);
+}
+
+.componentDoc h4 {
+font-size: 1.8rem;
+margin-bottom: 10px;
+color: #1a1a1a;
+border-bottom: 2px solid #e0e0e0;
+padding-bottom: 5px;
+}
+
+.componentDoc h6 {
+font-size: 1.2rem;
+font-weight: bold;
+color: #333333;
+margin-top: 15px;
+margin-bottom: 5px;
+}
+
+.componentDoc p {
+font-size: 1rem;
+margin-bottom: 10px;
+color: #444444;
+}
+
+.componentDoc p.timeline {
+font-size: 20px;
+background-color: #f9f9f9;
+padding: 50px;
+border-radius: 10px;
+border-left: 15px solid #4caf50;
+margin: 15px 0;
+}
+
+.componentDoc p a {
+text-decoration: none;
+color: #007bff;
+font-weight: bold;
+}
+
+.componentDoc p a:hover {
+text-decoration: underline;
+}
+
